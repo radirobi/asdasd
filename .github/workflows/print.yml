@@ -10,4 +10,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "👈 I am from test2"
-
