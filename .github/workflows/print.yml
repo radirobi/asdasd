@@ -1,5 +1,5 @@
 # .github/workflows/print.yml
-name: Print File - testbranch
+name: Print File - test2
 
 on:
   pull_request:
@@ -9,5 +9,4 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "👉 I am from testbranch"
-
+      - run: echo "👈 I am from test2"
